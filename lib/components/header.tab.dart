@@ -142,11 +142,11 @@ class HeaderLogo extends StatelessWidget {
               children: [
                 TextSpan(
                   text: "VICTOR",
-                  style: GoogleFonts.oswald(
-                    color: KpryColor,
-                    fontSize: 32.0,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: GoogleFonts.mulish(
+                      color: KpryColor,
+                      fontSize: 32.0,
+                      fontStyle: FontStyle.italic,
+                      fontWeight: FontWeight.w600),
                 ),
                 TextSpan(
                   text: ".",

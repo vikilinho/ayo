@@ -1,6 +1,7 @@
 import 'package:ayo/components/cardo.dart';
 import 'package:ayo/components/carousel.dart';
 import 'package:ayo/components/header.tab.dart';
+import 'package:ayo/components/kal.dart';
 import 'package:ayo/components/karousel.dart';
 import 'package:ayo/constants.dart';
 import 'package:flutter/material.dart';
@@ -95,6 +96,10 @@ class _HomeState extends State<Home> {
               height: 10,
             ),
             Cardo(),
+            SizedBox(
+              height: 10,
+            ),
+            Kal(),
           ],
         ),
       ),

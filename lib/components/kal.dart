@@ -5,14 +5,14 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
-class Karousel extends StatelessWidget {
+class Kal extends StatelessWidget {
   final CarouselController carouselController = CarouselController();
   @override
   Widget build(BuildContext context) {
     double carouselContainerHeight = MediaQuery.of(context).size.height *
         (ScreenManager.isMobile(context) ? .7 : .85);
     return Card(
-      color: Colors.brown[50],
+      color: Colors.white38,
       elevation: 3.0,
       child: Container(
         height: carouselContainerHeight,

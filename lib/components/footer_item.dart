@@ -28,7 +28,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 10.0,
           ),
           Text(
-            "I'm a mobile developer based in Nigeria, with experience in delivering high-end mobile applications.\nI'm passionate about developing apps that improves lives.\nI am constantly looking to learn new things daily.",
+            "A UX/UI designer and software enginer with experience designing software products that improves lives and help businesses and non-profits to make impacts.\nI am constantly looking to learn new things daily.",
             style: GoogleFonts.mulish(
                 color: Colors.black,
                 fontSize: 15.0,
